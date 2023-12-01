@@ -5,7 +5,6 @@ import {FileWrap} from "@/app/entities/lib";
 import {Embedding} from "@/app/api/fetch/embedding";
 import splitAndEmbed from "@/app/api/fetch/embedding";
 import {useChat} from "ai/react";
-//import {embed} from "@/app/cached/embed";
 import {set} from "lodash-es";
 
 
