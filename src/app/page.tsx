@@ -68,7 +68,7 @@ export default function Home() {
                         <h6>
                             {m.role === 'user' ? '' : 'AI: '}
                         </h6>
-                        <div key={m.id} className={`p-2 m-2 mb-4 rounded w-fit ${m.role === 'user' ? 'bg-sky-800 ml-auto' : 'bg-gray-900 mr-16'}`}>
+                        <div key={m.id} className={`p-2 m-2 mb-4 rounded pr-6 pl-6 w-fit ${m.role === 'user' ? 'bg-sky-800 ml-auto' : 'bg-gray-900 mr-16'}`}>
                             <p>{m.content}</p>
                         </div>
                     </div>
